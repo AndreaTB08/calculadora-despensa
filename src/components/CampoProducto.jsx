@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 import React from "react"
 
 export default function CampoProducto({ indice, valor, onCambio, error }) {
@@ -16,4 +17,9 @@ export default function CampoProducto({ indice, valor, onCambio, error }) {
       {error && <span className="text-red-600 text-xs mt-1">{error}</span>}
     </div>
   )
+=======
+// Campo de entrada para productos
+export default function CampoProducto() {
+  return <input type='text' placeholder='Producto' />;
+>>>>>>> 386adf5bbb077c919e237888cf79df7738f54bc6
 }

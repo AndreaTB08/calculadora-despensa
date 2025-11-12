@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 import { useState, useEffect } from "react"
 
 export default function useCalculos() {
@@ -64,4 +65,13 @@ export default function useCalculos() {
   }
 
   return { valores, actualizarValor, subtotal, tasa, montoDescuento, total, errores, mensaje }
+=======
+// Hook personalizado para cálculos
+import { useState } from 'react';
+
+export function useCalculos() {
+  const [resultado, setResultado] = useState(0);
+  const calcular = (a, b) => setResultado(a + b);
+  return { resultado, calcular };
+>>>>>>> 386adf5bbb077c919e237888cf79df7738f54bc6
 }

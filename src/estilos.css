@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 @import "tailwindcss";
 @layer base {
   html {
@@ -39,3 +40,6 @@
     @apply text-sm font-medium text-emerald-900;
   }
 }
+=======
+body { font-family: sans-serif; margin: 0; padding: 0; }
+>>>>>>> 386adf5bbb077c919e237888cf79df7738f54bc6

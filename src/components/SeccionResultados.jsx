@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 import React from "react"
 
 export default function SeccionResultados({ subtotal, tasa, descuento, total }) {
@@ -33,4 +34,9 @@ export default function SeccionResultados({ subtotal, tasa, descuento, total }) 
       </div>
     </div>
   )
+=======
+// Sección donde se mostrarán los resultados
+export default function SeccionResultados() {
+  return <div>Resultados aquí</div>;
+>>>>>>> 386adf5bbb077c919e237888cf79df7738f54bc6
 }

@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 import { useState, useEffect } from 'react'
 
 export default function useCalculos() {
@@ -45,4 +46,9 @@ export default function useCalculos() {
   }
 
   return { valores, actualizarValor, subtotal, tasa, montoDescuento, total, mensaje }
+=======
+// Componente de nota o comentario
+export default function Nota() {
+  return <p>Nota informativa</p>;
+>>>>>>> 386adf5bbb077c919e237888cf79df7738f54bc6
 }

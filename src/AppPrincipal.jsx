@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 import React from "react"
 import CampoProducto from "./components/CampoProducto.jsx"
 import SeccionResultados from "./components/SeccionResultados.jsx"
@@ -40,4 +41,9 @@ export default function AppPrincipal() {
       </div>
     </main>
   )
+=======
+// Componente principal de la aplicación
+export default function AppPrincipal() {
+  return <div>AppPrincipal</div>;
+>>>>>>> 386adf5bbb077c919e237888cf79df7738f54bc6
 }
